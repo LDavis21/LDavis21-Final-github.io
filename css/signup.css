@@ -1,0 +1,139 @@
+* {
+
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: url("http://www.dragtimes.com/blog/wp-content/gallery/mclaren-p1-satin-cerulean-blue/McLaren-P1-Satin-Cerulean-Blue-002.jpg");
+    background-position: center;
+    background-size: cover;
+    -webkit-background-blend-mode: overlay;
+    -moz-background-blend-mode: overlay;
+    background-blend-mode: overlay;
+}
+
+.loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5)
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+
+}
+
+.instagram {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    left: 40%;
+    top: 60%;
+}
+
+.facebook {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    left: 45%;
+    top: 60%;
+}
+
+.google {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    left: 51%;
+    top: 60%;
+}
+
+.twitter {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    left: 57%;
+    top: 60%;
+}
+
+
+h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: white;
+    text-align: center;
+}
+
+.loginBox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: white;
+}
+
+.loginBox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginBox input[type="text"]
+.loginBox input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+.loginBox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: rgb(61, 143, 209);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+a {
+    color: white;
+}
+
+.loginBox input[type="submit"]:hover
+{
+    background:  rgb(61, 143, 209);
+    color: #262626;
+}
