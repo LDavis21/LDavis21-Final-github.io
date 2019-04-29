@@ -24,6 +24,20 @@ body {
     background-blend-mode: overlay;
 }
 
+.video-container {
+    position: absolute;
+    top: 0;
+    left: -20%;
+    width: -50%;
+    z-index: -5;
+    height: 50%;
+  }
+  
+  video {
+    width: 100%;
+    height:-100%;
+  }
+
 .loginBox {
     position: absolute;
     top: 50%;

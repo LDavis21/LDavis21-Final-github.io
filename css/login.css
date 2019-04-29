@@ -16,13 +16,29 @@ html, body {
 
 body {
     margin: 0;
-    background-image: url("https://cimg2.ibsrv.net/ibimg/hgm/1920x1080-1/100/633/apollo-intensa-emozione_100633130.jpg");
+    background-image: url("");
     background-position: center;
     background-size: cover;
     -webkit-background-blend-mode: overlay;
     -moz-background-blend-mode: overlay;
     background-blend-mode: overlay;
 }
+
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: -20%;
+    width: -50%;
+    z-index: -5;
+    height: 50%;
+  }
+  
+  video {
+    width: 100%;
+    height:-75%;
+  }
+
 
 .loginBox {
     position: absolute;
