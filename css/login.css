@@ -16,7 +16,6 @@ html, body {
 
 body {
     margin: 0;
-    background-image: url("");
     background-position: center;
     background-size: cover;
     -webkit-background-blend-mode: overlay;

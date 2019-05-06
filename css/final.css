@@ -31,7 +31,6 @@ video {
 
 body {
     margin: 0;
-    background-color: lightsteelblue;
     background-position: center;
     background-size: cover;
     -webkit-background-blend-mode: overlay;
@@ -107,11 +106,6 @@ body {
 #navbar li.active:before {
     background: rgb(138, 199, 228);
 }
-
-
-
-
-
 
 
 .sticky {
