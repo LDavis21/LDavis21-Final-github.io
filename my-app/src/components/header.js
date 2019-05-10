@@ -18,27 +18,12 @@ class Header extends Component {
                             <div className="row">
                                 <div className="col-sm-5">
                                     <div className="logo-wrapper">
-                                        <img src="../img/logo-white.png" alt="Logo" />
+                                        <img src="../img/logo1.png" alt="Logo" />
                                         <div className="logo-text">
-                                            <h1>Lux <span>Rental</span></h1>
                                             <span></span>
                                         </div>
                                     </div>
                                     <div className="navbar-menus">
-                                        <ul>
-                                            <li>
-                                                <a href="./login">
-                                                    <img src="../img/lock.png" alt="" className="nav-icons" />
-                                                    <span>Login</span>
-                                                </a>
-                                            </li>
-                                            <li className="search-icon">
-                                                <a href="#Link" className="border-right">
-                                                    <img src="../img/search.png" alt="" className="nav-icons" />
-                                                    <span>Search</span>
-                                                </a>
-                                            </li>
-                                        </ul>
                                     </div>
                                 </div>
                                 <div className="col-sm-7">
