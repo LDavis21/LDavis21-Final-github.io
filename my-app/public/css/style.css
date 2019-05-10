@@ -1,0 +1,275 @@
+* {
+    
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background-color: lightsteelblue;
+    background-image: url("http://cdn.wallpapersafari.com/82/54/2IUj9M.jpg");
+    background-position: center;
+    background-size: cover;
+    -webkit-background-blend-mode: overlay;
+    -moz-background-blend-mode: overlay;
+    background-blend-mode: overlay;
+}
+#logo img {
+  width: 320px;
+  margin-top: -1px;
+}
+
+
+#navbar {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #222;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#navbar li {
+    position: relative;
+    float: left;
+    line-height: 60px;
+    background: inherit;
+    text-align: center;
+    transition: all .2s;
+}
+
+#navbar li a {
+    position: relative;
+    display: block;
+    padding: 0 20px;
+    line-height: inherit;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    background: #222;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    transition: all 0, background .2s;
+}
+#navbar li:hover:before {
+    margin-top: 1px;
+    border-radius: 50% 50% 0 50%;
+    transition: all .1s, background .2s, margin-top .2s cubic-bezier(.5,30,.2,0);
+}
+#navbar li:hover,
+#navbar li:hover:before {
+    background: #3a3a3a;
+}
+#navbar li.active,
+#navbar li.active:before {
+    background: steelblue;
+}
+
+.display {
+    width: 100%;
+    height: 100px;
+    border: 1px solid white;
+}
+
+input[type="radio"] {
+    width: 175px;
+    height: 100px;
+    border: 1px solid black;
+    display: block;
+    padding: 5%;
+    -webkit-appearance:none;
+        margin-top: 65px;
+        cursor: pointer;
+    
+}
+
+input[type="radio"]:checked{border: 2px solid #0a0a0a;}
+
+.display-image {
+    width: 1350px;
+    height: 800px;
+    border: 2px solid white;
+    position: absolute;
+    top: 200px;
+    right: 120px;
+    background-size: cover;
+    transition-duration: .5s;
+  
+}
+
+main {
+    margin: 0 auto;
+    min-height: calc(100vh - 211px - 5px);
+}
+
+/*--Image slider--*/
+#one{background-image: url(http://1hosj01irnixn8onr1zmv5s1.wpengine.netdna-cdn.com/wp-content/uploads/2015/01/AgeraAirport5.jpg); background-size: cover;}
+
+#two{background-image: url(https://img.gta5-mods.com/q95/images/2014-koenigsegg-agera-r-hq-digitaldials-one-1-tuning-set/f273dd-slidingmain.jpg); background-size: cover;}
+
+#three{background-image: url(http://st.motortrend.com/uploads/sites/5/2011/07/koengisegg-agera-R-promo.jpg); background-size: cover;}
+
+#four{background-image: url(https://img.gta5-mods.com/q95/images/agera-r-with-door-script-extrememodder191-just_riko/8503d6-GTA5%202016-11-20%2003-38-10.png); background-size: cover;}
+
+#one:checked ~ .display-image {background-image: url(http://1hosj01irnixn8onr1zmv5s1.wpengine.netdna-cdn.com/wp-content/uploads/2015/01/AgeraAirport5.jpg)}
+
+#two:checked ~ .display-image {background-image: url(https://img.gta5-mods.com/q95/images/2014-koenigsegg-agera-r-hq-digitaldials-one-1-tuning-set/f273dd-slidingmain.jpg)}
+
+#three:checked ~ .display-image {background-image: url(http://st.motortrend.com/uploads/sites/5/2011/07/koengisegg-agera-R-promo.jpg)}
+
+#four:checked ~ .display-image {background-image: url(https://img.gta5-mods.com/q95/images/agera-r-with-door-script-extrememodder191-just_riko/8503d6-GTA5%202016-11-20%2003-38-10.png)}
+
+
+#five{background-image: url(http://image.superstreetonline.com/f/69411501+w+h+q80+re0+cr1+ar0+st0/2014-mclaren-p1-front-three-quarter-in-motion.jpg); background-size: cover;}
+
+#six{background-image: url(http://st.motortrend.com/uploads/sites/5/2014/12/McLaren-P1-in-Gulf-livery-by-MSO-Bespoke-front-three-quarter.jpg); background-size: cover;}
+
+#seven{background-image: url(https://insideevs.com/wp-content/uploads/2017/12/2019-land-rover-range-rover-p400e-first-drive.jpg); background-size: cover;}
+
+
+#five:checked ~ .display-image {background-image: url(http://image.superstreetonline.com/f/69411501+w+h+q80+re0+cr1+ar0+st0/2014-mclaren-p1-front-three-quarter-in-motion.jpg)}
+
+#six:checked ~ .display-image {background-image: url(http://st.motortrend.com/uploads/sites/5/2014/12/McLaren-P1-in-Gulf-livery-by-MSO-Bespoke-front-three-quarter.jpg)}
+
+#seven:checked ~ .display-image {background-image: url(https://insideevs.com/wp-content/uploads/2017/12/2019-land-rover-range-rover-p400e-first-drive.jpg)}
+
+
+/*--Footer--*/
+.dummy_page {
+    height: 200px;
+    width: 100%;
+    background-color: #ec4343;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px 0px;
+  }
+  /* STYLES SPECIFIC TO FOOTER  */
+  .footer {
+    width: 100%;
+    position: absolute;
+    height: auto;
+    background-color: #222222;
+  }
+  .footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(255,255,255,0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  }
+  @media only screen and (min-width: 1280px) {
+    .contain {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 1139px) {
+    .contain .social {
+      width: 1000px;
+      display: block;
+    }
+    .social h1 {
+      margin: 0px;
+    }
+  }
+  @media only screen and (max-width: 950px) {
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col h1 {
+        font-size: 14px;
+      }
+      .footer .col ul li {
+        font-size: 13px;
+      }
+  }
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }
+
+  .contain {
+      background-color: #222222;
+  }
+
+  .footer {
+    margin: 0 auto;
+    margin-top: 500px;
+  }
