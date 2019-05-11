@@ -16,9 +16,8 @@ html, body {
 
 body {
     margin: 0;
-    background-image: url("http://www.dragtimes.com/blog/wp-content/gallery/mclaren-p1-satin-cerulean-blue/McLaren-P1-Satin-Cerulean-Blue-002.jpg");
     background-position: center;
-    background-size: cover;
+    
     -webkit-background-blend-mode: overlay;
     -moz-background-blend-mode: overlay;
     background-blend-mode: overlay;

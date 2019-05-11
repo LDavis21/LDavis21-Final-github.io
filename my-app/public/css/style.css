@@ -111,8 +111,8 @@ input[type="radio"]:checked{border: 2px solid #0a0a0a;}
     height: 800px;
     border: 2px solid white;
     position: absolute;
-    top: 200px;
-    right: 120px;
+    top: 400px;
+    right: 300px;
     background-size: cover;
     transition-duration: .5s;
   

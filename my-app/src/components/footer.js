@@ -4,34 +4,38 @@ function Footer() {
     return (
         <>
             <div className="footer">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-3 footer">
-                            <h2><b>Lux Rentals</b></h2>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Login</a></li>
-                                <li><a href="#">Sign Up</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-sm-3">
-                            <div className="contact">
-                                <h2>Contact</h2>
-                                <p> +1 (921)-358-6107</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-3 social">
-                            <h2>Social</h2>
-                            <ul>
-                                <li><a href="#Link"><i className="fab fa-facebook"></i></a></li>
-                                <li><a href="#Link"><i className="fab fa-twitter"></i></a></li>
-                                <li><a href="#Link"><i className="fab fa-pinterest"></i> </a></li>
-                            </ul>
-                        </div>
-                    </div>
+                <div className="contin">
+                <h1 id="About">About Us</h1>
+                <p>We are Lux Rentals giving the best deals and prices for all our customers. Giving our customers the best experience through our website.</p>
+                </div>
+                <div className="col">
+                <h1>Information</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Mission</li>
+                    <li>Services</li>
+                </ul>
+                </div>
+                <div className="col">
+                <h1>Resources</h1>
+                <ul>
+                    <li>Redeem Code</li>
+                    <li>Deals</li>
+                </ul>
+                </div>
+                <div className="col">
+                <h1 id="contact">Contact Us</h1>
+                <ul>
+                    <li>+1 (921)-358-6107</li>
+                </ul>
+                </div>
+                <div className="col social">
+                <h1>Social</h1>
+                <ul>
+                    <li><img src="https://svgshare.com/i/5fq.svg"></img></li>
+                    <li><img src="https://vignette.wikia.nocookie.net/magic-school-lussid/images/1/19/Twitter_icon.svg/revision/latest?cb=20150830032010"></img></li>
+                    <li><img src="https://svgshare.com/i/5f_.svg"></img></li>
+                </ul>
                 </div>
             </div>
         </>

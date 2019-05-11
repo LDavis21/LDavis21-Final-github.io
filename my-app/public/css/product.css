@@ -19,9 +19,6 @@ body {
     background-image: url("http://cdn.wallpapersafari.com/82/54/2IUj9M.jpg");
     background-position: center;
     background-size: cover;
-    -webkit-background-blend-mode: overlay;
-    -moz-background-blend-mode: overlay;
-    background-blend-mode: overlay;
 }
 
 #logo img {
