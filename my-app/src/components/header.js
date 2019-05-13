@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 function Header() {
     return (
         <div className="Header">
@@ -8,7 +7,7 @@ function Header() {
         <p id="logo"><img src="img/logo1.png"></img></p>
         <div className="main"></div>
         <ul id="navbar">
-        <li className="active"><a href="final.html"></a></li>
+        <li className="active"><a href="final.html">Home</a></li>
         <li><a href="#About">About Us</a></li>
         <li><a href="link/products.html">Products</a></li>
         <li><a href="#contact">Contact Us</a></li>
