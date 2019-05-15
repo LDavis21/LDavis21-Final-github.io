@@ -4,7 +4,7 @@ function Footer() {
     return (
         <>
             <div className="footer">
-                <div className="contin">
+                <div className="contain">
                 <h1 id="About">About Us</h1>
                 <p>We are Lux Rentals giving the best deals and prices for all our customers. Giving our customers the best experience through our website.</p>
                 </div>
