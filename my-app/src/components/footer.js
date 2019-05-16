@@ -33,8 +33,8 @@ function Footer() {
                 <h1>Social</h1>
                 <ul>
                     <li><img src="https://svgshare.com/i/5fq.svg"></img></li>
-                    <li><img src="https://vignette.wikia.nocookie.net/magic-school-lussid/images/1/19/Twitter_icon.svg/revision/latest?cb=20150830032010"></img></li>
-                    <li><img src="https://svgshare.com/i/5f_.svg"></img></li>
+                    <li><img src="https://vignette.wikia.nocookie.net/magic-school-lussid/images/1/19/Twitter_icon.svg/revision/latest?cb=20150830032010" style={{width:'37px', height:'40px'}}></img></li>
+                    <li><img src="https://svgshare.com/i/5f_.svg" style={{width:'37px', height:'40px'}}></img></li>
                 </ul>
                 </div>
             </div>

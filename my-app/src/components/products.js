@@ -21,6 +21,7 @@ class ProductPage extends Component {
                 console.log(this.state)
             })
     }
+
     render() {
         const products = this.state.products.map((item, idx) => <ProductTile data={item} key={idx} />)
         return(
@@ -31,7 +32,7 @@ class ProductPage extends Component {
                             <h1 className="products-hero-content"><b>Lux Rentals</b></h1>
                         </div>
                     </div>
-                    <div className="continer">
+                    <div className="container">
                         <div className="row products">
                             {products}
                         </div>
